@@ -1,18 +1,16 @@
 #Linear time  complexity
 import time
+
 def linear_time(n):
-# Take three inputs from the user
+
  print (f"\nO(n) for n={n}")
- for n in [n]:
-    start = time.time()
+ start = time.time()
+ 
+ for i in range(n):
+       pass
 
-    total = 0
-    for i in range(n):
-        total += i  # simple operation
-
-    end = time.time()
-
-    print(f"Time taken for n = {n} is {end - start:.6f} seconds")
+ end = time.time()
+ print(f"Time taken for n = {n} is {end - start:.6f} seconds")
     
     
 linear_time(10000)
